@@ -33,4 +33,6 @@ def linktree():
     fb_link = fb_link, ig_link = ig_link, pin_link = pin_link, blog_link = blog_link,
     fb_description = fb_description, ig_description = ig_description, pin_description = pin_description, blog_description = blog_description)
 
-bio.run(host="0.0.0.0", debug=True)
+if __name__ == '__main__':
+    bio.run(host="0.0.0.0", debug=True)
+
