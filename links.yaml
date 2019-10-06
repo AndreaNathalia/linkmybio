@@ -8,7 +8,8 @@ picture: "static/andrea.png"
 name: "@Andrea Nathalia"
 
 # short auto biography 
-shortbio: "19 years old Computer Science student with music skills ( guitar to be specific :) )"
+shortbio: "19 years old Computer Science student"
+shortbio2: "with music skills (guitar to be specific 😄)"
 
 # links information
 links:

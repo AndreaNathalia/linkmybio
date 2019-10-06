@@ -11,6 +11,7 @@ title = links_yaml["title"]
 pic = links_yaml["picture"]
 name = links_yaml["name"]
 short_bio = links_yaml["shortbio"]
+short_bio2 = links_yaml["shortbio2"]
 
 # Links
 fb_link = links_yaml["links"]["facebook"]["link"]
@@ -29,7 +30,7 @@ blog_description = links_yaml["links"]["blog"]["description"]
 def linktree():
     return render_template('linktree.html', 
     links_yaml = links_yaml, title = title, 
-    pic = pic, name = name, short_bio = short_bio, 
+    pic = pic, name = name, short_bio = short_bio, short_bio2 = short_bio2, 
     fb_link = fb_link, ig_link = ig_link, pin_link = pin_link, blog_link = blog_link,
     fb_description = fb_description, ig_description = ig_description, pin_description = pin_description, blog_description = blog_description)
 
