@@ -90,7 +90,8 @@ See you can add any style to your own project. These are only ideas.
 
 # Usage
 
-> put your code here
+To run the proyect you have to be in the folder "linkmybio" and run the python file in the terminal
+by using the command: python3 bio.py
 
 
 # Extras:
