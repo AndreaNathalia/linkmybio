@@ -1,0 +1,158 @@
+body{
+    background: #DA4453;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.wrapper{
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    display: block;
+    width: 550px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #303030;
+    border: 2px solid #303030;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    margin:0 auto 20px;
+    transition: all .35s;
+}
+
+a span{
+    position: relative;
+    z-index: 2;
+}
+
+a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #303030;
+    transition: all 1.15s;
+}
+
+a:hover{
+    color: #FF7373;
+}
+
+a:hover:after{
+    width: 100%;
+}
+
+h2{
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: #2C2B2B;
+    position: relative;
+    text-align: center;
+}
+
+
+p{
+    font-family: 'Courier New';
+    font-size: 15px;
+    color:#DADADA;
+    position: relative;
+    margin:0 auto 1px;
+    text-align: center;
+}
+
+img{
+    position: relative;
+    align-content: center;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        background: #DA4453;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+    
+    .wrapper{
+        position: fixed;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    a{
+        display: block;
+        width: 300px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #303030;
+        border: 2px solid #303030;
+        letter-spacing: 2px;
+        text-align: center;
+        position: relative;
+        margin:0 auto 20px;
+        transition: all .35s;
+    }
+    
+    a span{
+        position: relative;
+        z-index: 2;
+    }
+    
+    a:after{
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #303030;
+        transition: all 1.15s;
+    }
+    
+    a:hover{
+        color: #FF7373;
+    }
+    
+    a:hover:after{
+        width: 100%;
+    }
+    
+    h2{
+        font-family: 'Courier New';
+        font-size: 20px;
+        color: #2C2B2B;
+        position: relative;
+        text-align: center;
+    }
+    
+    
+    p{
+        font-family: 'Courier New';
+        font-size: 15px;
+        color:#DADADA;
+        position: relative;
+        margin:0 auto 1px;
+        text-align: center;
+    }
+    
+    img{
+        position: relative;
+        align-content: center;
+    }
+
+}
