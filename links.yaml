@@ -1,5 +1,5 @@
 # page title
-title: "@andrea | Linktree"
+title: "@Andrea Nathalia | Linktree"
 
 # profile pic 
 picture: "static/andrea.png"
@@ -32,4 +32,5 @@ links:
         enable: True
         link: "https://www.pinterest.com/andrea_nathalia/"
         description: "Pinterest"
+
 

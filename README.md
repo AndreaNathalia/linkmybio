@@ -84,7 +84,7 @@ See you can add any style to your own project. These are only ideas.
 - [x] Project MUST compile
 - [x] Update README.md to add a section `Usage`, where you will place the commands in order to run your bio.py
 - [x] Add Style, suggestions "bootstrap.css"
-- [ ] Deliver it via `git tags`
+- [x] Deliver it via `git tags`
 - [x] Make sure to use/develop/fill the empty files/folders provided: `static/`, `templates/`, `bio.py` , `requirements.txt`.
 
 
@@ -93,7 +93,7 @@ See you can add any style to your own project. These are only ideas.
 To run the proyect you have to be in the folder "linkmybio" and run the python file in the terminal
 by using the command: python3 bio.py
 
-It works better in Chrome.
+It works better in Chrome and the responsive looks better for Iphone 6/7/8.
 
 
 # Extras:
