@@ -93,6 +93,8 @@ See you can add any style to your own project. These are only ideas.
 To run the proyect you have to be in the folder "linkmybio" and run the python file in the terminal
 by using the command: python3 bio.py
 
+It works better in Chrome.
+
 
 # Extras:
 - You can **add** any other attribute you like in order to add more functionalities.
