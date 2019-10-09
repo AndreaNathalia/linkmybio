@@ -90,7 +90,7 @@ See you can add any style to your own project. These are only ideas.
 
 # Usage
 
-To run the proyect you have to be in the folder "linkmybio" and run the python file in the terminal
+To run the project you have to be in the folder "linkmybio" and run the python file in the terminal
 by using the command: python3 bio.py
 
 It works better in Chrome and the responsive looks better for Iphone 6/7/8.
